@@ -1,0 +1,75 @@
+body {
+  height:100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-image 0.5s ease-in-out;
+  background-repeat:no-repeat;
+  padding: 15em;
+}
+html {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    background: rgb(188, 212, 212);
+    justify-content: center;
+    height: 100wh;
+    align-content: center;
+    background-image:url('https://images.unsplash.com/photo-1503435980610-a51f3ddfee50?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+.card {background: #413e3e; color:white;padding: 2em;border-radius: 30px;width: 100%;max-width: 420px;margin: 1em; width: fit-content;}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height:46px;
+    width: 46px;
+    background-color:#7c7c7c2b;
+    color: white;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.8em;
+    border-radius: 18px;
+    background: #7c7c7c2b;
+    color: beige;
+    font-size: 120%;
+}
+button:hover {
+    background-color: #f0f0f0;
+}
+h1.temp{
+    margin: 0;
+    margin-bottom: 0.4em;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+.description {
+    text-transform: capitalize;
+    margin-left:8px;
+}
+.weather.loading{
+    visibility: hidden;
+    max-height:20px;
+    position:relative;
+}
+.wearher.loading:after{
+    visibility:visible;
+    content: "Loading...";
+    color:white;
+    position:absolute;
+    top:0;
+    left:20px;
+}
