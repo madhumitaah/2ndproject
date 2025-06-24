@@ -1,5 +1,5 @@
 # 2ndproject
-a simple ans responsive weather website built using HTML, CSS, Javascript , that fetches real time weather data using OpenWeatherMap API.This projects allows user to search for any city and view current weather conditions including temperature, humidity, weather type and many more.
+a simple and responsive weather website built using HTML, CSS, Javascript , that fetches real time weather data using OpenWeatherMap API.This projects allows user to search for any city and view current weather conditions including temperature, humidity, weather type and many more.
 # link
 https://self-weatherapp-second-project.netlify.app/
 # feature
